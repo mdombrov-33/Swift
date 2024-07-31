@@ -1,0 +1,27 @@
+@use "../abstracts/variables.scss" as *;
+@use "../abstracts/mixins.scss" as *;
+
+.two-column {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.two-column > .column-left {
+  @include flexCenter;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 $spacing-md 0 0;
+  display: flex;
+}
+
+.two-column > .column-right {
+  @include flexCenter;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 $spacing-md 0 0;
+}
