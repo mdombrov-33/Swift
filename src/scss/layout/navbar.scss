@@ -26,7 +26,7 @@
 }
 
 .logo {
-  height: 3rem;
+  height: 3.5rem;
 }
 
 .navbar-button {
@@ -34,4 +34,9 @@
   &:hover {
     background: hsla(0, 0%, 98%, 0.5);
   }
+}
+
+.company-name {
+  color: black;
+  width: 0.5rem;
 }

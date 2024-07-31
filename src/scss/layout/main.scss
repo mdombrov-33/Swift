@@ -15,18 +15,23 @@
 }
 
 .two-column > .column-left {
-  @include flexCenter;
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
   width: 50%;
   box-sizing: border-box;
   padding: 0 $spacing-md 0 0;
-  display: flex;
 }
 
 .two-column > .column-right {
-  @include flexCenter;
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
   width: 50%;
   box-sizing: border-box;
   padding: 0 $spacing-md 0 0;
+}
+
+main {
+  margin: $spacing-xl 0;
 }
