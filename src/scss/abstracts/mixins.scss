@@ -1,0 +1,13 @@
+@use "../abstracts/variables.scss" as *;
+
+@mixin headingReset {
+  width: 100%;
+  margin: 0;
+}
+
+@mixin btnCore {
+  font-family: $font-body;
+  font-size: $button-size;
+  letter-spacing: 1.25px;
+  font-weight: bold;
+}

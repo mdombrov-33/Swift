@@ -1,0 +1,49 @@
+@use "../abstracts/variables.scss" as *;
+@use "../abstracts/mixins.scss" as *;
+
+.primary-button {
+  @include btnCore;
+  background-color: $color-primary;
+  color: $text-white;
+  padding: $spacing-sm $spacing-md;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: $primary-btn-hover;
+  cursor: pointer;
+}
+
+.secondary-button {
+  @include btnCore;
+  background-color: transparent;
+  color: $color-primary;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.secondary-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.with-icon {
+  img {
+    transition: transform 0.3s ease;
+  }
+}
+
+.with-icon:hover {
+  img {
+    transform: translateX(5px);
+  }
+}

@@ -1,8 +1,26 @@
-$color-black: #000;
-$color-white: #fff;
-$color-grey: #adbdcc;
+//*Colors
+$text-black: hsl(0, 0%, 0%);
+$text-white: hsl(0, 0%, 100%);
+$text-grey: hsl(209, 23%, 74%);
+
+$color-primary: hsl(210, 73%, 15%);
+$purple-1: hsl(243, 90%, 68%);
+$purple-2: hsl(266, 100%, 50%);
+$blue-1: hsl(190, 100%, 50%);
+
+$bg-white: hsl(0, 0%, 100%);
+$bg-light: hsl(216, 45%, 98%);
+
+$primary-btn-hover: hsl(211, 11%, 48%);
+
+//*Fonts
 $font-body: "Roboto", sans-serif;
 $font-heading: "Anek Telugu", sans-serif;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+
+//*Headings
 $h1-size: 94px;
 $h1-height: 108px;
 $h2-size: 50px;
@@ -11,3 +29,24 @@ $h3-size: 40px;
 $h4-size: 32px;
 $h5-size: 28px;
 $h6-size: 22px;
+
+//*Subtitle
+$subtitle-size: 17px;
+$subtitle-height: 26px;
+
+//*Secondary-text
+$secondary-text-size: 14px;
+$secondary-text-height: 18px;
+
+//*Paragraph
+$paragraph-size: 18px;
+$paragraph-height: 26px;
+
+//*Spacing
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+$spacing-xl: 64px;
+
+//*Buttons
+$button-size: 16px;
