@@ -25,9 +25,7 @@ h2 {
   @include headingReset;
   font-family: $font-heading;
   font-size: $h2-size;
-  font-weight: $font-weight-500;
-  letter-spacing: -0.25px;
-  line-height: $h2-height;
+  font-weight: $font-weight-600;
 }
 
 h3 {
@@ -64,10 +62,9 @@ a {
   color: $purple-1;
   font-weight: $font-weight-500;
   transition: color 0.3s ease;
-}
-
-a:hover {
-  color: $color-primary;
+  &:hover {
+    color: $color-primary;
+  }
 }
 
 p {

@@ -1,0 +1,17 @@
+@use "../abstracts/variables" as *;
+
+.unified-platform-section {
+  padding: $spacing-xl 0;
+  background-color: $bg-light;
+  h2 {
+    width: 50%;
+    margin-bottom: $spacing-md;
+  }
+  .primary-button {
+    background-color: $purple-1;
+    margin: $spacing-md 0;
+    &:hover {
+      background-color: $color-primary;
+    }
+  }
+}

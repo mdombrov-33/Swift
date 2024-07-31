@@ -2,8 +2,8 @@
 @use "../abstracts/mixins.scss" as *;
 
 .section-container {
-  width: 100%;
   max-width: $standard-width;
+  width: 100%;
 }
 
 .two-column {
@@ -15,21 +15,21 @@
 }
 
 .two-column > .column-left {
+  padding: 0 $spacing-md 0 0;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 50%;
   box-sizing: border-box;
-  padding: 0 $spacing-md 0 0;
+  width: 50%;
 }
 
 .two-column > .column-right {
+  padding: 0 $spacing-md 0 0;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 50%;
   box-sizing: border-box;
-  padding: 0 $spacing-md 0 0;
 }
 
 main {

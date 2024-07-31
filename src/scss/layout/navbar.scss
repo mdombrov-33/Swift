@@ -3,10 +3,10 @@
 
 .navbar {
   max-width: $standard-width;
+  padding: 0 $spacing-md;
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 0 $spacing-md;
 }
 
 .links {

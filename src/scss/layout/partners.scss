@@ -1,10 +1,10 @@
 @use "../abstracts/variables" as *;
 
 .partners-grid {
+  margin: $spacing-xl 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: $spacing-xl 0;
   column-gap: $spacing-md;
   row-gap: $spacing-lg;
 }
