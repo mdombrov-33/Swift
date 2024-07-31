@@ -1,0 +1,20 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: $spacing-sm $spacing-md $spacing-sm 0;
+  .icon {
+    height: 50px;
+    margin: 0 0 $spacing-sm 0;
+  }
+  h3 {
+    @include headingReset;
+    font-family: $font-heading;
+    font-size: $h6-size;
+    font-weight: $font-weight-500;
+  }
+}
