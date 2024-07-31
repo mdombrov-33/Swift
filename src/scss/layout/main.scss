@@ -1,6 +1,11 @@
 @use "../abstracts/variables.scss" as *;
 @use "../abstracts/mixins.scss" as *;
 
+.section-container {
+  width: 100%;
+  max-width: $standard-width;
+}
+
 .two-column {
   width: 100%;
   display: flex;
