@@ -3,9 +3,12 @@
 
 body {
   @include headingReset;
+  @include flexCenter;
   font-family: $font-body;
   padding: $spacing-sm 0 0 0;
-  color: $text-black;
+  color: $text-dark;
+  background-color: $purple-1;
+  flex-direction: column;
   box-sizing: border-box;
 }
 

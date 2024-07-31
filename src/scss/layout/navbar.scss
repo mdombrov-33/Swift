@@ -1,0 +1,37 @@
+@use "../abstracts/variables.scss" as *;
+@use "../abstracts/mixins.scss" as *;
+
+.navbar {
+  max-width: $standard-width;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 $spacing-md;
+}
+
+.links {
+  @include flexCenter;
+  list-style: none;
+}
+
+.links {
+  a {
+    color: $text-light;
+    margin: 0 $spacing-md;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.logo {
+  height: 3rem;
+}
+
+.navbar-button {
+  background: hsla(0, 0%, 98%, 0.25);
+  &:hover {
+    background: hsla(0, 0%, 98%, 0.5);
+  }
+}
