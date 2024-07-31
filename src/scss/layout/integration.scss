@@ -1,0 +1,35 @@
+@use "../abstracts/variables" as *;
+
+.integration-section {
+  color: $text-light;
+  background-color: $color-primary;
+  .card-container {
+    display: flex;
+    margin: $spacing-lg 0;
+    .card {
+      width: 50%;
+    }
+  }
+  .primary-button {
+    background-color: $blue-1;
+    color: $color-primary;
+    margin: $spacing-md 0 0 0;
+    &:hover {
+      background-color: $bg-white;
+    }
+  }
+  .secondary-button {
+    color: $blue-1;
+  }
+}
+
+#api-code {
+  max-width: 470px;
+  margin: 0 0 $spacing-md 0;
+  border-radius: 30px;
+}
+
+#terminal-code {
+  max-width: 470px;
+  border-radius: 30px;
+}
