@@ -1,0 +1,80 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.virtual-events-section {
+  display: flex;
+  justify-content: center;
+  padding: ($spacing-xl * 2) 0;
+  .swift-sessions {
+    color: $text-light;
+    z-index: 4;
+    text-align: center;
+    padding-left: $spacing-xl * 5;
+  }
+  .primary-button {
+    background-color: $purple-1;
+    margin: $spacing-md 0 0 0;
+    &:hover {
+      background-color: $color-primary;
+    }
+  }
+
+  .avatars {
+    z-index: 1;
+    @include flexCenter;
+    position: relative;
+    top: $spacing-xl * 1.5;
+    margin-right: $spacing-xl * 5;
+
+    img {
+      width: 75px;
+      height: 75px;
+      margin: ($spacing-lg * 4) 0;
+      position: absolute;
+      right: 100px;
+      top: -100px;
+      right: 125px;
+      &:nth-child(2) {
+        left: -140px;
+      }
+    }
+  }
+
+  .card-top::before {
+    background: $primary-gradient;
+    content: "";
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: -35%;
+    transform: skewY(-5deg);
+  }
+
+  .card-bottom {
+    margin: $spacing-lg;
+  }
+
+  .swift-session-card {
+    width: 550px;
+    height: 450px;
+    box-shadow: $standard-box-shadow;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .card-top {
+      @include flexCenter;
+      width: 100%;
+      height: 50%;
+      position: relative;
+    }
+  }
+
+  .subtitle {
+    padding-top: $spacing-xl;
+  }
+
+  .secondary-text {
+    padding-top: $spacing-sm;
+    color: $text-dark;
+  }
+}
