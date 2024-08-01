@@ -1,5 +1,11 @@
 @use "../abstracts/variables" as *;
 
+.graphic-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .graphic-grid {
   grid-gap: $spacing-lg;
   display: grid;

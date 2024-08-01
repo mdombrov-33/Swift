@@ -1,5 +1,11 @@
 @use "../abstracts/variables" as *;
 
+.partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .partners-grid {
   margin: $spacing-xl 0;
   display: grid;
@@ -7,9 +13,6 @@
   grid-template-rows: 1fr 1fr;
   column-gap: $spacing-md;
   row-gap: $spacing-lg;
-}
-
-.partners-grid {
   img {
     height: 60px;
     place-self: center;

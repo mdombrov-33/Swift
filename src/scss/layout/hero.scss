@@ -11,6 +11,9 @@
 }
 
 .hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   p {
     max-width: 480px;
   }

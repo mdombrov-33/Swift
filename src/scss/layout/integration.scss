@@ -1,6 +1,8 @@
 @use "../abstracts/variables" as *;
 
 .integration-section {
+  display: flex;
+  justify-content: center;
   color: $text-light;
   background-color: $color-primary;
   .card-container {
@@ -21,7 +23,11 @@
   .secondary-button {
     color: $blue-1;
   }
+  .column-left {
+    width: 100%;
+  }
 }
+
 ////////////////////////
 #api-code {
   max-width: 470px;

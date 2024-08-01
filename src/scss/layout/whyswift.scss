@@ -1,6 +1,9 @@
 @use "../abstracts/variables" as *;
 
 .why-swift-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   .card-container {
     display: flex;
     margin: $spacing-lg 0;

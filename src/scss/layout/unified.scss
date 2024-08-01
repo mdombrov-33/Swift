@@ -1,6 +1,9 @@
 @use "../abstracts/variables" as *;
 
 .unified-platform-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   padding: $spacing-xl 0;
   background-color: $bg-light;
   h2 {
