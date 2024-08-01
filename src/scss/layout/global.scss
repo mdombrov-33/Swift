@@ -2,10 +2,12 @@
 
 .global-section {
   background-color: $color-primary;
+  color: $text-light;
   width: 100%;
   display: flex;
   justify-content: center;
-  color: $text-light;
+  position: relative;
+  padding: $spacing-lg * 3 0;
   a {
     color: $blue-1;
     &:hover {
@@ -31,4 +33,11 @@
   .subtitle-2 {
     padding-top: $spacing-md;
   }
+}
+
+#globe {
+  max-width: 844px;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
 }
